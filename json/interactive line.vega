@@ -1,0 +1,169 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "height": 300,
+    "title" : "Number of suicides of different generations (1985-2016)",
+    "data": {
+      "url": "https://raw.githubusercontent.com/YKiat/VegaLite-Visualisation/main/master.csv"
+    },  
+    "params": 
+    [
+      {
+        "name": "Min_Year",
+        "value": 2010,
+        "bind":{
+          "input": "range",
+          "min": 1985,
+          "max": 2016,
+          "step": 3,
+          "name": "Year :"
+        }
+      }
+    ],
+    "transform": 
+    [
+      {
+        "filter": 
+        {
+          "timeUnit": "year", 
+          "field": "year", 
+          "gt": "Min_Year"
+        }
+      }
+    ],
+    "layer": 
+    [
+      {
+        "encoding": 
+        {
+          "x": 
+          {
+            "timeUnit":"year", 
+            "title":"", 
+            "field":"year"
+          },
+          "y": 
+          {
+            "aggregate":"sum",
+            "field":"suicides_no", 
+            "type": "quantitative",
+            "title":"Number of suicides"
+          }, 
+          "color": 
+          {
+            "field":"generation",
+            "type": "nominal",
+            "title": "Generation"
+          }
+        },
+      "layer": 
+      [
+        {
+          "mark": "line"
+        },
+        {
+          "params": 
+          [
+            {
+              "name": "test",
+              "select": 
+              {
+                "type": "point",
+                "nearest": true,
+                "on": "mouseover",
+                "encodings": ["x"]
+              } 
+            }
+          ],
+          "mark": "point",
+          "encoding": 
+          {
+            "opacity": 
+            {
+              "condition": 
+              {
+                "param": "test",
+                "value": 1,
+                "empty": false
+              },
+              "value": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "transform": 
+      [
+        {
+          "filter":
+          {
+            "param": "test",
+            "empty": false
+          }
+        }
+      ],
+       "layer": [
+          {
+            "mark": {"type": "errorbar"},
+            "encoding": {
+              "x": {
+                "timeUnit": "year",
+                "title": "",
+                "field": "year",
+                "aggregate": "min"
+              }
+            }
+          },
+          {
+            "encoding": {
+              "text": {
+                "aggregate": "sum",
+                "field": "suicides_no",
+                "type": "quantitative"
+              },
+              "x": {"timeUnit": "year", "title": "", "field": "year"},
+              "y": {
+                "aggregate": "sum",
+                "field": "suicides_no",
+                "type": "quantitative"
+              }
+            },
+            "layer": [
+              {
+                "mark": {
+                  "type": "text",
+                  "stroke": "white",
+                  "strokeWidth": 2,
+                  "align": "left",
+                  "dx": 5,
+                  "dy": -5
+                }
+              },
+              {
+                "mark": {
+                  "type": "text",
+                  "align": "left",
+                  "dx": 5,
+                  "dy": -5,
+                  "font": "Helvetica",
+                  "fontSize": 10
+                },
+                "encoding": {
+                  "color": {
+                    "field": "generation",
+                    "type": "nominal",
+                    "title": "Generation"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "config": {
+      "title": {"font": "sans-serif", "fontSize": 16},
+      "bar": {"cornerRadius": 3}
+    }
+  }
