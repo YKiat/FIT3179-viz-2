@@ -1,0 +1,203 @@
+country,sex,suicides_no
+Albania,female,693
+Albania,male,1277
+Antigua and Barbuda,female,1
+Antigua and Barbuda,male,10
+Argentina,female,18326
+Argentina,male,63893
+Armenia,female,495
+Armenia,male,1410
+Aruba,female,17
+Aruba,male,84
+Australia,female,15326
+Australia,male,54785
+Austria,female,13195
+Austria,male,36878
+Azerbaijan,female,412
+Azerbaijan,male,1244
+Bahamas,female,14
+Bahamas,male,79
+Bahrain,female,80
+Bahrain,male,383
+Barbados,female,33
+Barbados,male,144
+Belarus,female,10002
+Belarus,male,49890
+Belgium,female,18012
+Belgium,male,44749
+Belize,female,51
+Belize,male,297
+Bosnia and Herzegovina,female,70
+Bosnia and Herzegovina,male,248
+Brazil,female,49015
+Brazil,male,177598
+Bulgaria,female,9968
+Bulgaria,male,26420
+Cabo Verde,female,5
+Cabo Verde,male,37
+Canada,female,24184
+Canada,male,83377
+Chile,female,6834
+Chile,male,34061
+Colombia,female,11343
+Colombia,male,41737
+Costa Rica,female,979
+Costa Rica,male,5813
+Croatia,female,4675
+Croatia,male,13754
+Cuba,female,11675
+Cuba,male,29743
+Cyprus,female,82
+Cyprus,male,330
+Czech Republic,female,9247
+Czech Republic,male,34440
+Denmark,female,4329
+Denmark,male,10968
+Dominica,female,0
+Dominica,male,0
+Ecuador,female,6238
+Ecuador,male,14422
+El Salvador,female,3345
+El Salvador,male,8338
+Estonia,female,1393
+Estonia,male,5641
+Fiji,female,91
+Fiji,male,213
+Finland,female,7660
+Finland,male,26017
+France,female,89419
+France,male,239708
+Georgia,female,694
+Georgia,male,2530
+Germany,female,79707
+Germany,male,211555
+Greece,female,2540
+Greece,male,9828
+Grenada,female,4
+Grenada,male,34
+Guatemala,female,1973
+Guatemala,male,6176
+Guyana,female,818
+Guyana,male,2608
+Hungary,female,18115
+Hungary,male,55776
+Iceland,female,255
+Iceland,male,853
+Ireland,female,2451
+Ireland,male,10123
+Israel,female,2681
+Israel,male,8613
+Italy,female,32881
+Italy,male,99179
+Jamaica,female,26
+Jamaica,male,158
+Japan,female,251630
+Japan,male,555272
+Kazakhstan,female,18160
+Kazakhstan,male,83386
+Kiribati,female,10
+Kiribati,male,43
+Kuwait,female,301
+Kuwait,male,665
+Kyrgyzstan,female,2637
+Kyrgyzstan,male,10453
+Latvia,female,2474
+Latvia,male,10296
+Lithuania,female,5011
+Lithuania,male,23028
+Luxembourg,female,542
+Luxembourg,male,1416
+Macau,female,12
+Macau,male,15
+Maldives,female,6
+Maldives,male,14
+Malta,female,110
+Malta,male,475
+Mauritius,female,995
+Mauritius,male,2899
+Mexico,female,19334
+Mexico,male,91805
+Mongolia,female,52
+Mongolia,male,371
+Montenegro,female,144
+Montenegro,male,328
+Netherlands,female,16886
+Netherlands,male,33947
+New Zealand,female,3355
+New Zealand,male,11028
+Nicaragua,female,482
+Nicaragua,male,1531
+Norway,female,4685
+Norway,male,12307
+Oman,female,0
+Oman,male,33
+Panama,female,512
+Panama,male,2971
+Paraguay,female,1457
+Paraguay,male,3326
+Philippines,female,5273
+Philippines,male,16057
+Poland,female,21063
+Poland,male,118035
+Portugal,female,5874
+Portugal,male,18187
+Puerto Rico,female,1054
+Puerto Rico,male,7989
+Qatar,female,50
+Qatar,male,524
+Republic of Korea,female,82615
+Republic of Korea,male,179115
+Romania,female,13182
+Romania,male,59595
+Russian Federation,female,214330
+Russian Federation,male,995412
+Saint Kitts and Nevis,female,0
+Saint Kitts and Nevis,male,0
+Saint Lucia,female,34
+Saint Lucia,male,196
+Saint Vincent and Grenadines,female,11
+Saint Vincent and Grenadines,male,113
+San Marino,female,0
+San Marino,male,4
+Serbia,female,6763
+Serbia,male,17416
+Seychelles,female,9
+Seychelles,male,89
+Singapore,female,3793
+Singapore,male,6296
+Slovakia,female,2024
+Slovakia,male,11413
+Slovenia,female,2302
+Slovenia,male,8313
+South Africa,female,1602
+South Africa,male,5719
+Spain,female,24669
+Spain,male,75533
+Sri Lanka,female,13598
+Sri Lanka,male,42043
+Suriname,female,568
+Suriname,male,1598
+Sweden,female,11183
+Sweden,male,26612
+Switzerland,female,7739
+Switzerland,male,18478
+Thailand,female,28101
+Thailand,male,82542
+Trinidad and Tobago,female,820
+Trinidad and Tobago,male,3219
+Turkey,female,2569
+Turkey,male,7562
+Turkmenistan,female,2096
+Turkmenistan,male,6528
+Ukraine,female,61377
+Ukraine,male,258573
+United Arab Emirates,female,98
+United Arab Emirates,male,524
+United Kingdom,female,32687
+United Kingdom,male,104118
+United States,female,213797
+United States,male,820216
+Uruguay,female,2820
+Uruguay,male,10318
+Uzbekistan,female,9260
+Uzbekistan,male,25543
