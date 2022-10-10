@@ -1,0 +1,203 @@
+country,sex,suicides_no_x,suicide_percentage
+Albania,female,693,35.18%
+Albania,male,1277,64.82%
+Antigua and Barbuda,female,1,9.09%
+Antigua and Barbuda,male,10,90.91%
+Argentina,female,18326,22.29%
+Argentina,male,63893,77.71%
+Armenia,female,495,25.98%
+Armenia,male,1410,74.02%
+Aruba,female,17,16.83%
+Aruba,male,84,83.17%
+Australia,female,15326,21.86%
+Australia,male,54785,78.14%
+Austria,female,13195,26.35%
+Austria,male,36878,73.65%
+Azerbaijan,female,412,24.88%
+Azerbaijan,male,1244,75.12%
+Bahamas,female,14,15.05%
+Bahamas,male,79,84.95%
+Bahrain,female,80,17.28%
+Bahrain,male,383,82.72%
+Barbados,female,33,18.64%
+Barbados,male,144,81.36%
+Belarus,female,10002,16.70%
+Belarus,male,49890,83.30%
+Belgium,female,18012,28.70%
+Belgium,male,44749,71.30%
+Belize,female,51,14.66%
+Belize,male,297,85.34%
+Bosnia and Herzegovina,female,70,22.01%
+Bosnia and Herzegovina,male,248,77.99%
+Brazil,female,49015,21.63%
+Brazil,male,177598,78.37%
+Bulgaria,female,9968,27.39%
+Bulgaria,male,26420,72.61%
+Cabo Verde,female,5,11.90%
+Cabo Verde,male,37,88.10%
+Canada,female,24184,22.48%
+Canada,male,83377,77.52%
+Chile,female,6834,16.71%
+Chile,male,34061,83.29%
+Colombia,female,11343,21.37%
+Colombia,male,41737,78.63%
+Costa Rica,female,979,14.41%
+Costa Rica,male,5813,85.59%
+Croatia,female,4675,25.37%
+Croatia,male,13754,74.63%
+Cuba,female,11675,28.19%
+Cuba,male,29743,71.81%
+Cyprus,female,82,19.90%
+Cyprus,male,330,80.10%
+Czech Republic,female,9247,21.17%
+Czech Republic,male,34440,78.83%
+Denmark,female,4329,28.30%
+Denmark,male,10968,71.70%
+Dominica,female,0,nan%
+Dominica,male,0,nan%
+Ecuador,female,6238,30.19%
+Ecuador,male,14422,69.81%
+El Salvador,female,3345,28.63%
+El Salvador,male,8338,71.37%
+Estonia,female,1393,19.80%
+Estonia,male,5641,80.20%
+Fiji,female,91,29.93%
+Fiji,male,213,70.07%
+Finland,female,7660,22.75%
+Finland,male,26017,77.25%
+France,female,89419,27.17%
+France,male,239708,72.83%
+Georgia,female,694,21.53%
+Georgia,male,2530,78.47%
+Germany,female,79707,27.37%
+Germany,male,211555,72.63%
+Greece,female,2540,20.54%
+Greece,male,9828,79.46%
+Grenada,female,4,10.53%
+Grenada,male,34,89.47%
+Guatemala,female,1973,24.21%
+Guatemala,male,6176,75.79%
+Guyana,female,818,23.88%
+Guyana,male,2608,76.12%
+Hungary,female,18115,24.52%
+Hungary,male,55776,75.48%
+Iceland,female,255,23.01%
+Iceland,male,853,76.99%
+Ireland,female,2451,19.49%
+Ireland,male,10123,80.51%
+Israel,female,2681,23.74%
+Israel,male,8613,76.26%
+Italy,female,32881,24.90%
+Italy,male,99179,75.10%
+Jamaica,female,26,14.13%
+Jamaica,male,158,85.87%
+Japan,female,251630,31.18%
+Japan,male,555272,68.82%
+Kazakhstan,female,18160,17.88%
+Kazakhstan,male,83386,82.12%
+Kiribati,female,10,18.87%
+Kiribati,male,43,81.13%
+Kuwait,female,301,31.16%
+Kuwait,male,665,68.84%
+Kyrgyzstan,female,2637,20.15%
+Kyrgyzstan,male,10453,79.85%
+Latvia,female,2474,19.37%
+Latvia,male,10296,80.63%
+Lithuania,female,5011,17.87%
+Lithuania,male,23028,82.13%
+Luxembourg,female,542,27.68%
+Luxembourg,male,1416,72.32%
+Macau,female,12,44.44%
+Macau,male,15,55.56%
+Maldives,female,6,30.00%
+Maldives,male,14,70.00%
+Malta,female,110,18.80%
+Malta,male,475,81.20%
+Mauritius,female,995,25.55%
+Mauritius,male,2899,74.45%
+Mexico,female,19334,17.40%
+Mexico,male,91805,82.60%
+Mongolia,female,52,12.29%
+Mongolia,male,371,87.71%
+Montenegro,female,144,30.51%
+Montenegro,male,328,69.49%
+Netherlands,female,16886,33.22%
+Netherlands,male,33947,66.78%
+New Zealand,female,3355,23.33%
+New Zealand,male,11028,76.67%
+Nicaragua,female,482,23.94%
+Nicaragua,male,1531,76.06%
+Norway,female,4685,27.57%
+Norway,male,12307,72.43%
+Oman,female,0,0.00%
+Oman,male,33,100.00%
+Panama,female,512,14.70%
+Panama,male,2971,85.30%
+Paraguay,female,1457,30.46%
+Paraguay,male,3326,69.54%
+Philippines,female,5273,24.72%
+Philippines,male,16057,75.28%
+Poland,female,21063,15.14%
+Poland,male,118035,84.86%
+Portugal,female,5874,24.41%
+Portugal,male,18187,75.59%
+Puerto Rico,female,1054,11.66%
+Puerto Rico,male,7989,88.34%
+Qatar,female,50,8.71%
+Qatar,male,524,91.29%
+Republic of Korea,female,82615,31.56%
+Republic of Korea,male,179115,68.44%
+Romania,female,13182,18.11%
+Romania,male,59595,81.89%
+Russian Federation,female,214330,17.72%
+Russian Federation,male,995412,82.28%
+Saint Kitts and Nevis,female,0,nan%
+Saint Kitts and Nevis,male,0,nan%
+Saint Lucia,female,34,14.78%
+Saint Lucia,male,196,85.22%
+Saint Vincent and Grenadines,female,11,8.87%
+Saint Vincent and Grenadines,male,113,91.13%
+San Marino,female,0,0.00%
+San Marino,male,4,100.00%
+Serbia,female,6763,27.97%
+Serbia,male,17416,72.03%
+Seychelles,female,9,9.18%
+Seychelles,male,89,90.82%
+Singapore,female,3793,37.60%
+Singapore,male,6296,62.40%
+Slovakia,female,2024,15.06%
+Slovakia,male,11413,84.94%
+Slovenia,female,2302,21.69%
+Slovenia,male,8313,78.31%
+South Africa,female,1602,21.88%
+South Africa,male,5719,78.12%
+Spain,female,24669,24.62%
+Spain,male,75533,75.38%
+Sri Lanka,female,13598,24.44%
+Sri Lanka,male,42043,75.56%
+Suriname,female,568,26.22%
+Suriname,male,1598,73.78%
+Sweden,female,11183,29.59%
+Sweden,male,26612,70.41%
+Switzerland,female,7739,29.52%
+Switzerland,male,18478,70.48%
+Thailand,female,28101,25.40%
+Thailand,male,82542,74.60%
+Trinidad and Tobago,female,820,20.30%
+Trinidad and Tobago,male,3219,79.70%
+Turkey,female,2569,25.36%
+Turkey,male,7562,74.64%
+Turkmenistan,female,2096,24.30%
+Turkmenistan,male,6528,75.70%
+Ukraine,female,61377,19.18%
+Ukraine,male,258573,80.82%
+United Arab Emirates,female,98,15.76%
+United Arab Emirates,male,524,84.24%
+United Kingdom,female,32687,23.89%
+United Kingdom,male,104118,76.11%
+United States,female,213797,20.68%
+United States,male,820216,79.32%
+Uruguay,female,2820,21.46%
+Uruguay,male,10318,78.54%
+Uzbekistan,female,9260,26.61%
+Uzbekistan,male,25543,73.39%
