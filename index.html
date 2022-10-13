@@ -112,7 +112,7 @@
   <script type="text/javascript">
     var specVis1 = "https://raw.githubusercontent.com/YKiat/FIT3179-viz-2/main/json/Choroplethmap.json";
     var specVis2 = "https://raw.githubusercontent.com/YKiat/FIT3179-viz-2/main/json/interactive_bubble_plot.vega";
-    var specVis3 = "https://raw.githubusercontent.com/YKiat/FIT3179-viz-2/main/json/interactive%20line.vega";
+    var specVis3 = "https://raw.githubusercontent.com/YKiat/FIT3179-viz-2/main/json/interactiveline.vega";
 
     vegaEmbed('#vis1', specVis1, { "actions": false });
 
@@ -120,7 +120,7 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#vis3', specVis1, { "actions": false }).then(function (result) {
+    vegaEmbed('#vis3', specVis3, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
