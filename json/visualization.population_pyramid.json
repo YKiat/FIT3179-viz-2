@@ -8,12 +8,12 @@
     {"filter": "datum.year == 2009"},
     {"calculate": "datum.sex ==  'male' ? 'male' : 'female'", "as": "gender"}
   ],
-  "spacing": 0,
+  "spacing": 20,
   "hconcat": [
     {
       "layer": [
         {
-          "width": 250,
+          "width": 300,
           "height": 300,
           "transform": [{"filter": {"field": "gender", "equal": "female"}}],
           "mark": "bar",
@@ -27,7 +27,7 @@
             "y": {"field": "age", "axis": null, "sort": "descending"},
             "color": {
               "field": "gender",
-              "scale": {"range": ["#FFB6C1", "#4169E1"]},
+              "scale": {"range": ["#FFB1CB","#01A6EA"]},
               "legend": null
             },
             "tooltip": [
@@ -54,7 +54,7 @@
             "y": {"field": "age", "axis": null, "sort": "descending"},
             "color": {
               "field": "gender",
-              "scale": {"range": ["#FFB6C1", "#4169E1"]}
+              "scale": {"range": ["#FFB1CB","#01A6EA"]}
             },
             "key": {"field": "age"},
             "text": {
@@ -65,9 +65,9 @@
           }
         },
         {
-          "width": 35,
+          "width": 50,
           "view": {"stroke": null},
-          "mark": {"type": "text", "align": "center", "dx": 155},
+          "mark": {"type": "text", "align": "center", "dx": 200},
           "encoding": {
             "y": {
               "field": "age",
@@ -83,7 +83,7 @@
     {
       "layer": [
         {
-          "width": 250,
+          "width": 300,
           "height": 300,
           "transform": [{"filter": {"field": "gender", "equal": "male"}}],
           "title": "Male",
@@ -93,7 +93,7 @@
             "y": {"field": "age", "axis": null, "sort": "descending"},
             "color": {
               "field": "gender",
-              "scale": {"range": ["#FFB6C1", "#4169E1"]},
+              "scale": {"range": ["#FFB1CB","#01A6EA"]},
               "legend": null
             },
             "tooltip": [
@@ -125,7 +125,7 @@
             },
             "color": {
               "field": "gender",
-              "scale": {"range": ["#FFB6C1", "#4169E1"]}
+              "scale": {"range": ["#FFB1CB","#01A6EA"]}
             },
             "key": {"field": "age"},
             "text": {
@@ -152,7 +152,7 @@
             },
             "color": {
               "field": "gender",
-              "scale": {"range": ["#f4c2c2", "#89CFF0"]},
+              "scale": {"range": ["#FFB1CB","#01A6EA"]},
               "legend": null
             },
             "key": {"field": "age"},
