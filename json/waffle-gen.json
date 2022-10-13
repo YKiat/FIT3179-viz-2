@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Percentage of Suicides Cases by Generation",
+  "width": 400,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/YKiat/FIT3179-viz-2/main/data_w10/waffle_chart_generation.csv"
+  },
+  "layer": [
+    {
+      "mark": {"type": "square", "size": 500},
+      "encoding": {
+        "x": {"field": "Column", "type": "quantitative", "axis": null},
+        "y": {"field": "Row", "type": "quantitative", "axis": null},
+        "color": {
+          "field": "Generation",
+          "type": "nominal",
+          "scale": {
+            "type": "ordinal",
+            "domain": [
+              "Boomers",
+              "Silent",
+              "Generation X",
+              "Millenials",
+              "Others"
+            ]
+          },
+          "legend": {
+            "labelFont": "sans-serif",
+            "titleFont": "sans-serif",
+            "title": "Generation"
+          }
+        },
+        "tooltip": [{"field": "Generation"}]
+      }
+    }
+  ],
+  "config": {"style": {"cell": {"stroke": "transparent"}}}
+}
