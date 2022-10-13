@@ -4,8 +4,8 @@
     "text": "Total Number of Suicides in Countries(Gender)",
     "anchor": "center"
   },
-  "width": 200,
-  "height": 330,
+  "width": 400,
+  "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/YKiat/FIT3179-viz-2/main/data_w10/donut_chart%20(2).csv"
   },
@@ -15,7 +15,6 @@
       "bind": {
         "input": "select",
         "options": [
-          "All countries",
           "Albania",
           "Antigua and Barbuda",
           "Argentina",
@@ -123,7 +122,7 @@
   ],
   "transform": [
     {
-      "filter": "if(Country!=null, datum.country == Country, datum.country == 'All countries')"
+      "filter": "if(Country!=null, datum.country == Country, datum.country == 'Albania')"
     }
   ],
   "encoding": {
