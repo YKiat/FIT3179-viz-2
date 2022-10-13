@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>FIT3179 Data Visualisation Assignment 2</title>
+  <title>FIT3179 W10 Homework</title>
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
@@ -57,48 +57,47 @@
     </div>
     <!-- end pure grid group -->
 
-<!-- pure grid group -->
-<div class="pure-g">
-    <div class="pure-u-1-3">
-      <div class="description description-middle">
-        <h2> Suicides Cases By Country and GDP</h2>
-        <p>We can see that the <span style="color: #6950a3; font-weight:bold;">United States </span>and the <span style="color: #4a9c98; font-weight:bold;">Russian Federation </span>has the highest number of suicide cases. 
-          An interesting finding is that although <span style="color: #ddb916; font-weight:bold;">Africa</span> has a lower GDP Per Capita but their rate of suicide is 
-          <span style="color: #ddb916; font-weight:bold;"> 0.08 </span>
-          which is  <span style="color: #73aa85; font-weight:bold;">lower</span> compared to the United States that is
-          <span style="color: #6950a3; font-weight:bold;"> 1.28.</span> The Russian Federation which belongs to Europe has a very 
-          high rate of suicide which is <span style="color: #4a9c98; font-weight:bold;">3.28.</span> </p>
-      </div>
-      </div>
-      <div class="pure-u-2-3">
-        <div id="vis2"  class="vis-container-py"></div>
-      </div>
-
-  </div>
-  <!-- end pure grid group -->
-
+    <!-- pure grid group -->
     <div class="pure-g">
-        <div class="pure-u-1-3">
-          <div id="vis3"  class="vis-container"></div>
+      <div class="pure-u-3-5">
+        <div id="vis2" class="vis-container"></div>
+      </div>
+      <div class="pure-u-2-5">
+        <div class="description description-right">
+          <h2>Total Suicide case to GDP</h2>
+          <p> 
+            From the bubble plot, we can tell that United States and Russian Federation has the most suicides cases. 
+            One thing to note that which is even the Africa Countries having lower GDP, but their rate of suicide is 
+            lower than the country having high GDP such as US. Meanwhile, Japan also have very high number of suicide 
+            cases despite of having high GDP.  
+          </p>
         </div>
-  
+      </div>
+
+    </div>
+    <!-- end pure grid group -->
+
+     <!-- pure grid group -->
+     <div class="pure-g">
         <div class="pure-u-1-3">
-          <div class="description description-middle">
-            <h2> Suicide Cases by Generation</h2>
-            <p> We notice that the number of suicide cases for <span style="color: #FFBF00; font-weight:bold;">Generation X </span>
-              has peaked around the year 2014. 
-              The suicide cases have been increasing substantially for the <span style="color: #808080; font-weight:bold;">Millenials </span>
-              but it has decreased after 2014. 
-              As for generation <span style="color: #DE3163; font-weight:bold;">Boomers</span>, the suicide cases are the highest during the year 1996. 
-              Besides that, the number of suicide cases has started decreasing after the year 1990 for generation 
-              <span style="color: #800080; font-weight:bold;">Silent</span>.</p>
+          <div class="description description-left">
+            <h2>Total suicides cases by generation(Yearly)</h2>
+            <p>
+                From the map itself, we can tell that we actually lack of quite a lot of countries data. 
+               But within all the country we're having, Belarus is having the highest suicide cases to 100k
+               population, on average 728 suicide cases per 100k population. One thing to note that is the 
+              Eastern Europe country have the highest suicides case to 100k population, including Ukraine having
+              nearly 700 suicide cases per 100k population. Meanwhile in the Asia country, due to lacking of data, 
+              we're missing most of the asia country, but Kazakhstan is having 652 suicides cases to 100k population.
+            </p>
           </div>
         </div>
-       <div class="pure-u-2-3">
-        <div id="vis3"  class="vis-container-py"></div>
+        <div class="pure-u-2-3">
+          <div id="vis3" class="vis-container"></div>
+        </div>
       </div>
-      </div>
-    <!-- end pure grid group -->
+      <!-- end pure grid group -->
+  
 
     <div class="pure-g">
       <div class="pure-u-1-1 small-font">
