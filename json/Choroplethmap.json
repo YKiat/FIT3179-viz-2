@@ -1,9 +1,8 @@
-
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Suicide Rate per 100k population (1985-2016)",
-    "width": 800,
-    "height": 350,
+    "width": 400,
+    "height": 300,
     "data": {
       "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
       "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
@@ -26,7 +25,7 @@
             "lookup": "properties.NAME",
             "from": {
               "data": {
-                "url": "https://raw.githubusercontent.com/YKiat/VegaLite-Visualisation/main/suicide_dataset.csv"
+                "url": "https://raw.githubusercontent.com/YKiat/FIT3179_Week10/main/data_w10/suicide_dataset.csv"
               },
               "key": "country",
               "fields": ["suicides_no", "population"]
@@ -56,8 +55,8 @@
         "mark": {
           "type": "text",
           "font": "Open Sans",
-          "x": 190,
-          "y": 65,
+          "x": 115,
+          "y": 70,
           "fontWeight": "bold",
           "fontSize": 10
         },
@@ -68,8 +67,8 @@
         "mark":{
           "type": "text",
           "font":"Open Sans",
-          "x": 300,
-          "y": 190,
+          "x": 150,
+          "y": 170,
           "fontWeight": "bold",
           "fontSize": 10
         },
@@ -80,14 +79,25 @@
         "mark":{
           "type": "text",
           "font":"Open Sans",
-          "x": 660,
-          "y": 220,
+          "x": 350,
+          "y": 190,
           "fontWeight": "bold",
           "fontSize": 10
         },
         "encoding": {"text": {"value": "Australia"}}
       },
-
+      {
+        "transform": [{"filter":"datum.properties.NAME =='Kazakhstan' "}],
+        "mark":{
+          "type": "text",
+          "font":"Open Sans",
+          "x": 300,
+          "y": 75,
+          "fontWeight": "bold",
+          "fontSize": 10
+        },
+        "encoding": {"text": {"value": "Kazakhstan"}}
+      },
       {
         "data": {
           "url": "https://raw.githubusercontent.com/YKiat/VegaLite-Visualisation/main/ne_110m.json",
