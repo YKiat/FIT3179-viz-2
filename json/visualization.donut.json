@@ -1,0 +1,154 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Total Number of Suicides in Countries(Gender)",
+    "anchor": "center"
+  },
+  "width": 200,
+  "height": 330,
+  "data": {
+    "url": "https://raw.githubusercontent.com/YKiat/FIT3179-viz-2/main/data_w10/donut_chart%20(2).csv"
+  },
+  "params": [
+    {
+      "name": "Country",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All countries",
+          "Albania",
+          "Antigua and Barbuda",
+          "Argentina",
+          "Armenia",
+          "Aruba",
+          "Australia",
+          "Austria",
+          "Azerbaijan",
+          "Bahamas",
+          "Bahrain",
+          "Barbados",
+          "Belarus",
+          "Belgium",
+          "Belize",
+          "Bosnia and Herzegovina",
+          "Brazil",
+          "Bulgaria",
+          "Cabo Verde",
+          "Canada",
+          "Chile",
+          "Colombia",
+          "Costa Rica",
+          "Croatia",
+          "Cuba",
+          "Cyprus",
+          "Czech Republic",
+          "Denmark",
+          "Dominica",
+          "Ecuador",
+          "El Salvador",
+          "Estonia",
+          "Fiji",
+          "Finland",
+          "France",
+          "Georgia",
+          "Germany",
+          "Greece",
+          "Grenada",
+          "Guatemala",
+          "Guyana",
+          "Hungary",
+          "Iceland",
+          "Ireland",
+          "Israel",
+          "Italy",
+          "Jamaica",
+          "Japan",
+          "Kazakhstan",
+          "Kiribati",
+          "Kuwait",
+          "Kyrgyzstan",
+          "Latvia",
+          "Lithuania",
+          "Luxembourg",
+          "Macau",
+          "Maldives",
+          "Malta",
+          "Mauritius",
+          "Mexico",
+          "Mongolia",
+          "Montenegro",
+          "Netherlands",
+          "New Zealand",
+          "Nicaragua",
+          "Norway",
+          "Oman",
+          "Panama",
+          "Paraguay",
+          "Philippines",
+          "Poland",
+          "Portugal",
+          "Puerto Rico",
+          "Qatar",
+          "Republic of Korea",
+          "Romania",
+          "Russian Federation",
+          "Saint Kitts and Nevis",
+          "Saint Lucia",
+          "Saint Vincent and Grenadines",
+          "San Marino",
+          "Serbia",
+          "Seychelles",
+          "Singapore",
+          "Slovakia",
+          "Slovenia",
+          "South Africa",
+          "Spain",
+          "Sri Lanka",
+          "Suriname",
+          "Sweden",
+          "Switzerland",
+          "Thailand",
+          "Trinidad and Tobago",
+          "Turkey",
+          "Turkmenistan",
+          "Ukraine",
+          "United Arab Emirates",
+          "United Kingdom",
+          "United States",
+          "Uruguay",
+          "Uzbekistan"
+        ]
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "if(Country!=null, datum.country == Country, datum.country == 'All countries')"
+    }
+  ],
+  "encoding": {
+    "theta": {"field": "suicides_no_x", "type": "quantitative", "stack": true},
+    "color": {
+      "field": "sex",
+      "type": "nominal",
+      "scale": {"range": ["#FFB6C1", "#4169E1"]},
+      "title": "Gender"
+    },
+    "tooltip": [
+      {"field": "sex", "type": "nominal", "title": "Gender"},
+      {
+        "field": "suicide_percentage",
+        "type": "ordinal",
+        "title": "Suicide (in%)"
+      }
+    ]
+  },
+  "layer": [
+    {"mark": {"type": "arc", "outerRadius": 80, "innerRadius": 40}},
+    {
+      "mark": {"type": "text", "radius": 100},
+      "encoding": {"text": {"field": "suicides_no_x", "type": "quantitative"}}
+    }
+  ],
+  "config": {}
+}

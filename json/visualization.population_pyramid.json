@@ -1,0 +1,171 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Population Pyramid of Suiciders Age by Gender",
+  "data": {
+    "url": "https://raw.githubusercontent.com/YKiat/FIT3179-viz-2/main/data_w10/population_pyramid%202.csv"
+  },
+  "transform": [
+    {"filter": "datum.year == 2009"},
+    {"calculate": "datum.sex ==  'male' ? 'male' : 'female'", "as": "gender"}
+  ],
+  "spacing": 0,
+  "hconcat": [
+    {
+      "layer": [
+        {
+          "width": 250,
+          "height": 300,
+          "transform": [{"filter": {"field": "gender", "equal": "female"}}],
+          "mark": "bar",
+          "title": "Female",
+          "encoding": {
+            "x": {
+              "aggregate": "sum",
+              "field": "suicides_no",
+              "sort": "descending"
+            },
+            "y": {"field": "age", "axis": null, "sort": "descending"},
+            "color": {
+              "field": "gender",
+              "scale": {"range": ["#FFB6C1", "#4169E1"]},
+              "legend": null
+            },
+            "tooltip": [
+              {"field": "gender", "type": "nominal"},
+              {
+                "field": "suicides_no",
+                "type": "quantitative",
+                "aggregate": "sum"
+              }
+            ]
+          }
+        },
+        {
+          "transform": [{"filter": {"field": "gender", "equal": "female"}}],
+          "mark": {"type": "text", "align": "right"},
+          "encoding": {
+            "x": {
+              "field": "suicides_no",
+              "type": "quantitative",
+              "aggregate": "sum",
+              "title": "Number of Suicides",
+              "scale": {"domain": [0, 90000]}
+            },
+            "y": {"field": "age", "axis": null, "sort": "descending"},
+            "color": {
+              "field": "gender",
+              "scale": {"range": ["#FFB6C1", "#4169E1"]}
+            },
+            "key": {"field": "age"},
+            "text": {
+              "aggregate": "sum",
+              "field": "suicides_no",
+              "type": "ordinal"
+            }
+          }
+        },
+        {
+          "width": 35,
+          "view": {"stroke": null},
+          "mark": {"type": "text", "align": "center", "dx": 155},
+          "encoding": {
+            "y": {
+              "field": "age",
+              "type": "ordinal",
+              "axis": null,
+              "sort": "ascending"
+            },
+            "text": {"field": "age", "type": "ordinal"}
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "width": 250,
+          "height": 300,
+          "transform": [{"filter": {"field": "gender", "equal": "male"}}],
+          "title": "Male",
+          "mark": "bar",
+          "encoding": {
+            "x": {"aggregate": "sum", "field": "suicides_no"},
+            "y": {"field": "age", "axis": null, "sort": "descending"},
+            "color": {
+              "field": "gender",
+              "scale": {"range": ["#FFB6C1", "#4169E1"]},
+              "legend": null
+            },
+            "tooltip": [
+              {"field": "gender", "type": "nominal"},
+              {
+                "field": "suicides_no",
+                "type": "quantitative",
+                "aggregate": "sum"
+              }
+            ]
+          }
+        },
+        {
+          "transform": [{"filter": {"field": "gender", "equal": "male"}}],
+          "mark": {"type": "text", "align": "left", "dx": 5},
+          "encoding": {
+            "x": {
+              "field": "suicides_no",
+              "type": "quantitative",
+              "aggregate": "sum",
+              "title": "Number of Suicides",
+              "scale": {"domain": [0, 90000]}
+            },
+            "y": {
+              "field": "age",
+              "axis": null,
+              "title": null,
+              "sort": "descending"
+            },
+            "color": {
+              "field": "gender",
+              "scale": {"range": ["#FFB6C1", "#4169E1"]}
+            },
+            "key": {"field": "age"},
+            "text": {
+              "aggregate": "sum",
+              "field": "suicides_no",
+              "type": "ordinal"
+            }
+          }
+        },
+        {
+          "transform": [{"filter": {"field": "Gender", "equal": "male"}}],
+          "mark": {"type": "text", "align": "left", "dx": 5},
+          "encoding": {
+            "y": {
+              "field": "age",
+              "title": null,
+              "axis": null,
+              "sort": "descending"
+            },
+            "x": {
+              "aggregate": "sum",
+              "field": "suicides_no",
+              "scale": {"domain": [0, 90000]}
+            },
+            "color": {
+              "field": "gender",
+              "scale": {"range": ["#f4c2c2", "#89CFF0"]},
+              "legend": null
+            },
+            "key": {"field": "age"},
+            "text": {
+              "aggregate": "sum",
+              "field": "suicides_no",
+              "type": "ordinal",
+              "format": ","
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "config": {}
+}
