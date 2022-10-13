@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Number of suicide (Generation) in each country",
   "width": "container",
-  "height": 500,
+  "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/YKiat/FIT3179-viz-2/main/data_w10/radal_chart.csv"
   },
