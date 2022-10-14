@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 400,
+    "width": 420,
     "height": 300,
     "title" : "Number of suicides of different generations (1985-2016)",
     "data": {
