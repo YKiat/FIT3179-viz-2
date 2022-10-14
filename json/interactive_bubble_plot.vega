@@ -118,7 +118,7 @@
         "color":{"value":"black"},
         "opacity":{
           "condition":{
-              "test":  "datum['Country'] ==  'Sri Lanka' || datum['Country'] == 'Ukraine' || datum['Country'] ==  'Maldives' ||  datum['Country'] ==  'Japan' ||  datum['Country'] == 'United States'",  
+              "test":  "datum['Country'] ==  'South Africa' || datum['Country'] == 'Brazil' || datum['Country'] ==  'Russian Federation' ||  datum['Country'] ==  'Japan' ||  datum['Country'] == 'United States' || datum['Country'] == 'Australia'",  
               "value": 1  
           },  
           "value": 0       
