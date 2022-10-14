@@ -13,7 +13,7 @@
     {
       "layer": [
         {
-          "width": 300,
+          "width": 150,
           "height": 300,
           "transform": [{"filter": {"field": "gender", "equal": "female"}}],
           "mark": "bar",
@@ -65,9 +65,9 @@
           }
         },
         {
-          "width": 50,
+          "width": 25,
           "view": {"stroke": null},
-          "mark": {"type": "text", "align": "center", "dx": 200},
+          "mark": {"type": "text", "align": "center", "dx": 115},
           "encoding": {
             "y": {
               "field": "age",
@@ -83,7 +83,7 @@
     {
       "layer": [
         {
-          "width": 300,
+          "width": 150,
           "height": 300,
           "transform": [{"filter": {"field": "gender", "equal": "male"}}],
           "title": "Male",
