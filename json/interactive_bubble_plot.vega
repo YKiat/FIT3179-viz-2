@@ -4,7 +4,7 @@
     "height": 300,
     "title": "Suicide Cases vs GDP",
     "data": {
-      "url": "https://raw.githubusercontent.com/YKiat/VegaLite-Visualisation/main/bubble_plot_data%20(1).csv"
+      "url": "https://raw.githubusercontent.com/YKiat/FIT3179-viz-2/main/data_w10/bubble_plot_data.csv"
     },
     "params": [
       {
