@@ -130,7 +130,7 @@
     "color": {
       "field": "sex",
       "type": "nominal",
-      "scale": {"range": ["#FFB6C1", "#4169E1"]},
+      "scale": {"range": ["#FFB1CB", "#01A6EA"]},
       "title": "Gender"
     },
     "tooltip": [
