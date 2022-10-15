@@ -68,7 +68,7 @@
         "mark":{
           "type": "text",
           "font":"Open Sans",
-          "x": 260,
+          "x": 350,
           "y": 220,
           "fontWeight": "bold",
           "fontSize": 10
@@ -80,8 +80,8 @@
         "mark":{
           "type": "text",
           "font":"Open Sans",
-          "x": 610,
-          "y": 245,
+          "x": 680,
+          "y": 250,
           "fontWeight": "bold",
           "fontSize": 10
         },
@@ -92,8 +92,8 @@
         "mark":{
           "type": "text",
           "font":"Open Sans",
-          "x": 500,
-          "y": 50,
+          "x": 550,
+          "y": 35,
           "fontWeight": "bold",
           "fontSize": 10
         },
