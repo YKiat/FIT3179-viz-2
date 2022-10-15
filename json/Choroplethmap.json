@@ -68,7 +68,7 @@
         "mark":{
           "type": "text",
           "font":"Open Sans",
-          "x": 350,
+          "x": 355,
           "y": 220,
           "fontWeight": "bold",
           "fontSize": 10
