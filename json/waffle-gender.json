@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Percentage of Suicides Cases by Generation",
-  "width": 415,
-  "height": 305,
+  "width": 425,
+  "height": 303,
   "data": {
     "url": "https://raw.githubusercontent.com/YKiat/FIT3179-viz-2/main/data_w10/waffle_chart_sex.csv"
   },
